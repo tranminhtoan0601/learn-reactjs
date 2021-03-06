@@ -1,0 +1,19 @@
+.todo-list {
+    li{
+        cursor: pointer;
+    }
+ & >li {
+     cursor: pointer;
+ }
+
+    & > li.completed{
+        font-style:italic;
+        color: rgb(199, 21, 21);
+        text-decoration: line-through;
+    }
+    // .todo-item{
+    //     font-style:italic;
+    //     color: rgb(199, 21, 21);
+    //     text-decoration: line-through;
+    // }
+} 
